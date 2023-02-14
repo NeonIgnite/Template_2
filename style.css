@@ -1,0 +1,292 @@
+/* #0060f7 */
+/* ************************************************* Amr Part************************************************* */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.header h1 {
+    font-size: 30px;
+    color: #0060f7;
+}
+
+.but{
+    font-size: 15px;    
+    background-color: rgba(0, 0, 0, 0);
+    transition: 0.5s;
+}
+
+.header button {
+    width: 120px;
+    height: 40px;
+    color: #0060f7;
+    border: 2px solid #0060f7;
+    border-radius: 20px;
+}
+
+.but:hover{
+    background-color: #0060f7;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 1px 1px 4px gray;
+}
+
+
+.sec {
+    width: 100%;
+    height: 90%;
+    margin-top: 25px;
+    display: flex;
+}
+
+
+.caption{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.section1 .caption h3 {
+    font-size: 72px;
+    font-weight: lighter;
+    line-height: 100px;
+}
+
+.section1 .caption p {
+    font-size: 25px;
+    line-height: 40px;
+    color: gray;
+}
+
+.Dbuts{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.buts{
+    height: 50px;
+    width: 200px;
+    border-radius: 25px;
+    margin: 20px;
+}
+
+.but1{
+    width: 400px;
+}
+
+.but2{
+    width: 200px;
+}
+
+.section2 .left{
+    width: 50%;
+    height: 100%;
+}
+
+.section2 .right{
+    width: 50%;
+    height: 100%;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+}
+.section2 .left{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.section2 .left img {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+
+
+.section2 .right h4{
+    font-size: 70px;
+    line-height: 70px;
+    font-weight: lighter;
+} 
+
+.section2 .right p{
+    font-size: 24px;
+    color: gray;
+    margin-top: 10px;
+}
+
+.section2 .but{
+    margin-top: 30px;
+    width: 90%;
+    height: 60px;
+    border-radius: 30px;
+}
+/* ******************************************Khaled Part*********************************** */
+.content1{
+    display: flex;
+    margin-top: 90px;
+    height: 100vh;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+
+}
+.child1{
+    width:50%;
+    height: 100vh;
+}
+.text{
+    text-align: left;
+    width: 40%;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.text p{
+    color:gray
+}
+.SocialImg{
+    width:40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.SocialImg img{
+    width:100%;
+}
+
+.appsIcons{
+    display: flex;
+    align-self: flex-start;
+    
+}
+.appsIcons .PlayStore{
+    width:100px;
+    height: 70px;
+}
+.appsIcons .apple{
+    align-self: center;
+    width: 46px;
+    height: 55px;
+}
+.h1{
+    text-align: center;
+}
+.content2{
+    display: flex;
+    justify-content: space-evenly;
+}
+/* RIGHT SIDE */
+.sideImgRight{
+    display: flex;
+    width:20%;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.RightImg1{
+    width: 30%;
+    margin-bottom: 15px;
+}
+.RightImg2{
+    align-self: center;
+    width: 20%;
+    margin-right: 15px;
+}
+.RightImg3{
+    width: 25%;
+    margin-top: 30px;
+}
+.midNum{
+    display: flex;
+    align-items: center;
+}
+/* MID SECTION */
+.midNum span{
+    font-size: 150px;
+    color:#0060f7;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+/* LEFT SIDE */
+.sideImgLeft{
+    display: flex;
+    width:20%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.LeftImg2{
+    align-self: center;
+    width:30%;
+    margin: 30px;
+}
+.LeftImg1{
+    width: 30%;
+    margin-bottom: 15px;
+}
+.LeftImg3{
+    width: 25%;
+    margin-top: 40px;
+}
+.content3{
+    text-align: center;
+    margin-top: 90px;
+}
+.content3 h1{
+    font-size: 40px;
+}
+.content3 p{
+    color: gray;
+}
+.mailBox{
+    padding:15px;
+}
+.mailBox input{
+    width:20em;
+    height: 40px;
+    text-align: center;
+    border-radius: 20px;
+    margin-right: 30px;
+    border: 2px solid #0060f7;
+}
+.mailBox button{
+    width: 10em;
+    height: 40px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 2px solid #0060f7;
+}
+.mailBox:hover button{
+    background-color: #0060f7;
+    color:white;
+    border-color: transparent;
+    box-shadow: 1px 1px 4px gray;
+}
+
+
+
